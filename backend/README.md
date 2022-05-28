@@ -1,5 +1,5 @@
 # Um simples template DRF configurado para PT-BR com CORS ORIGIN, Arquivos .ENV, MySQL e DockerFile configurado para Build
-
+### By felps-dev.
 ## Dependências
 
 - Python
