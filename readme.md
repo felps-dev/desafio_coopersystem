@@ -55,3 +55,7 @@ Com ele clonado siga os passos adiante.
 - No frontend basta realizar login com o usuário e senha criado no `createsuperuser`
 - A aplicação irá funcionar.
 - Para visualizar o Swagger UI abra o endereço da API + `/api/docs/swui`. Ex: `http://localhost:8000/api/docs/swui` 
+
+## Detalhes adicionais
+O tempo total de desenvolvimento foi de **4h 32m e 57s** (Não contando com o tempo de release / email). Foram utilizadas as funções mais recentes da DRF, porém por ser um projeto simples não teve tanto o que se explorar.
+Por consistencia de dados, foi utilizado os signals, assim temos certeza da quantidade atual do produto.
