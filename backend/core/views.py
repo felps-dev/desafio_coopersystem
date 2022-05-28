@@ -9,11 +9,14 @@ class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     filterset_fields = ('name', 'un_price', 'quantity', 'status')
+    ordering = 'id'
+    search_fields = ('name', 'un_price', 'quantity', 'status')
 
 
 class OrderViewSet(viewsets.ModelViewSet):
     queryset = Order.objects.all()
     serializer_class = OrderSerializer
+    ordering = 'id'
     filterset_fields = ('product', 'quantity', 'un_price', 'date',
                         'requester', 'postal_code', 'uf', 'city',
                         'district', 'address', 'number', 'dispatcher',
